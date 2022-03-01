@@ -1,0 +1,19 @@
+<form action="/auth/login" method="post">
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="username" name="username" placeholder="Username" autocomplete="username" required />
+        <label for="username">Username</label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input type="password" class="form-control" id="current-password" name="password" placeholder="Password" autocomplete="current-password" required />
+        <label for="current-password">Password</label>
+    </div>
+
+    <div class="form-check mb-3">
+        <label><input type="checkbox" class="form-check-input" id="remember-me" name="remember" value="true" />Remember me</label>
+    </div>
+
+    <button class="btn btn-primary btn-lg w-100" type="submit">Sign in</button>
+</form>
+
+<p class="text-center text-muted mt-4 mb-0">Don't have an account? <a href="/SignUp" class="fw-bold text-body"><u>Sign Up</u></a></p>
